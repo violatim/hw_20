@@ -1,0 +1,44 @@
+body{
+    background: aliceblue;
+    margin: 0;
+}
+.img_list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    cursor: pointer;
+}
+.alert-zone{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: grey;
+    opacity: 0.5;
+}
+.alert-content{
+    position: fixed;
+    top: 40px;
+    left: 25vw;
+    border-radius: 10px;
+}
+.close{
+    position: fixed;
+    width: 20px;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.img_content{
+    border-radius: 10px;
+    width: 50vw;
+}
+.hide{
+    display: none;
+}
